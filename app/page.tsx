@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { FaPhone } from "react-icons/fa";
 import { FaCheckCircle } from "react-icons/fa";
+import ElectricLogo from "@/components/Electriclogo";
 export default function Home() {
   return (
     <main className="flex-1">
@@ -23,14 +24,8 @@ export default function Home() {
 
         {/* Logo centré */}
         <div className="mb-8">
-          <Image
-            src="/JGS-ELEC_LOGO_SANSFOND_CENTRAL.PNG"
-            width={1300}
-            height={500}
-            alt="Logo JGS-ELEC"
-          />
+          <ElectricLogo />
         </div>
-
         {/* Titre principal */}
         <h1 className="text-4xl md:text-7xl font-bold text-center mb-4">
           Votre électricien de confiance à Boussy-Saint-Antoine (91).
