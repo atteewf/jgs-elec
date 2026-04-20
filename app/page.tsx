@@ -11,33 +11,33 @@ export default function Home() {
       >
         {/* Image de fond */}
         <Image
-          src="/hero-bg.jpg" // ← Change le nom si tu as nommé différemment
-          alt="Maison connectée JGS-ELEC"
+          src="/hero-sg.png"
+          alt="hero-sg JGS-ELEC"
           fill
           className="object-cover -z-10"
           priority
         />
 
         {/* Overlay sombre pour lisibilité du texte */}
-        <div className="absolute inset-0 bg-black/50 -z-10"></div>
+        <div className="absolute inset-0 bg-black/60 -z-10"></div>
 
         {/* Logo centré */}
         <div className="mb-8">
           <Image
-            src="/JGS-ELEC_LOGO.jpg"
-            width={200}
-            height={80}
+            src="/JGS-ELEC_LOGO_SANSFOND_CENTRAL.PNG"
+            width={1300}
+            height={500}
             alt="Logo JGS-ELEC"
           />
         </div>
 
         {/* Titre principal */}
-        <h1 className="text-4xl md:text-6xl font-bold text-center mb-4">
-          Votre électricien de confiance à Boussy-Saint-Antoine
+        <h1 className="text-4xl md:text-7xl font-bold text-center mb-4">
+          Votre électricien de confiance à Boussy-Saint-Antoine (91).
         </h1>
 
         {/* Sous-titre */}
-        <p className="text-lg md:text-xl text-center max-w-3xl mb-8">
+        <p className="text-lg md:text-3xl text-center max-w-3xl mb-8">
           Installation, rénovation et intervention rapide pour particuliers et
           professionnels.
         </p>
@@ -184,42 +184,54 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Colonne gauche - Texte */}
             <div>
-              <h2 className="text-3xl md:text-4xl font-bold mb-6 text-primary-dark">
-                L'expérience JGS-ELEC
+              <h2 className="text-7xl md:text-5xl font-bold mb-6 text-primary-dark">
+                L’exigence au cœur de chaque intervention
               </h2>
 
-              <div className="space-y-4 text-gray-700">
+              <div className="space-y-6 text-gray-700 leading-relaxed">
                 <p>
-                  <strong>JGS-ELEC</strong> a vu le jour en 2025. Fondée par M.
-                  Georgeais Julien, artisan électricien passionné à
-                  Boussy-Saint-Antoine, mon parcours n'est pas tout à fait
-                  classique.
+                  Fondée en 2025 par Julien Georgeais, <strong>JGS-ELEC</strong>{" "}
+                  est née d’une conviction simple : dans le domaine de
+                  l’électricité, il n’y a pas de place pour l’approximation.
                 </p>
+
                 <p>
-                  J'ai évolué au sein de l'armée, un milieu où la{" "}
-                  <strong>précision</strong>, le{" "}
-                  <strong>respect des consignes de sécurité</strong> et la{" "}
-                  <strong>fiabilité</strong> ne sont pas de simples mots, mais
-                  une nécessité absolue.
+                  Avant de devenir électricien, j’ai évolué dans un
+                  environnement où la
+                  <strong> rigueur</strong>, la <strong>discipline</strong> et
+                  le
+                  <strong> respect absolu des procédures</strong> sont
+                  essentiels : l’armée.
                 </p>
+
                 <p>
-                  Lors de ma reconversion vers le métier d'électricien, il m'a
-                  paru évident d'appliquer cette même philosophie à mes
-                  chantiers. J'ai obtenu mes diplômes et qualifications avec un
-                  objectif clair : offrir à mes clients un service irréprochable
-                  et de totale confiance.
+                  Cette exigence, je l’applique aujourd’hui à chacun de mes
+                  chantiers. Chaque installation est pensée, réalisée et
+                  vérifiée avec un seul objectif : garantir un résultat{" "}
+                  <strong>fiable, sécurisé et durable</strong>.
+                </p>
+
+                <p>
+                  Pas de compromis. Pas d’à-peu-près. Un travail propre,
+                  conforme et fait pour durer.
+                </p>
+
+                <p>
+                  Choisir <strong>JGS-ELEC</strong>, c’est faire appel à un
+                  professionnel engagé, qui considère votre sécurité et la
+                  qualité de votre installation comme une priorité absolue.
                 </p>
               </div>
 
               {/* 3 points clés */}
-              <div className="mt-8 space-y-4">
+              <div className="mt-8 space-y-6">
                 <div className="flex gap-4">
                   <div className="flex-shrink-0 w-12 h-12 bg-accent rounded-full flex items-center justify-center">
                     <FaCheckCircle className="text-white text-xl" />
                   </div>
                   <div>
-                    <h3 className="font-bold text-lg mb-1">Méthodologie</h3>
-                    <p className="text-gray-600 text-sm">
+                    <h3 className="font-bold text-xl mb-1">Méthodologie</h3>
+                    <p className="text-gray-600 text-xm">
                       Chaque projet est étudié en amont pour éviter les
                       mauvaises surprises.
                     </p>
@@ -231,10 +243,10 @@ export default function Home() {
                     <FaCheckCircle className="text-white text-xl" />
                   </div>
                   <div>
-                    <h3 className="font-bold text-lg mb-1">
+                    <h3 className="font-bold text-xl mb-1">
                       Rigueur d'exécution
                     </h3>
-                    <p className="text-gray-600 text-sm">
+                    <p className="text-gray-600 text-xm">
                       Des finitions soignées et un respect absolu des normes en
                       vigueur.
                     </p>
@@ -246,8 +258,8 @@ export default function Home() {
                     <FaCheckCircle className="text-white text-xl" />
                   </div>
                   <div>
-                    <h3 className="font-bold text-lg mb-1">Fiabilité</h3>
-                    <p className="text-gray-600 text-sm">
+                    <h3 className="font-bold text-xl mb-1">Fiabilité</h3>
+                    <p className="text-gray-600 text-xm">
                       Je suis votre unique interlocuteur, de la signature du
                       devis jusqu'à la livraison finale du chantier.
                     </p>
@@ -257,7 +269,7 @@ export default function Home() {
 
               {/* CTA */}
               <div className="mt-8">
-                <p className="text-lg font-semibold mb-4">
+                <p className="text-xl font-semibold mb-4">
                   Prêt à démarrer votre projet ?
                 </p>
                 <button className="bg-cta text-white px-6 py-3 rounded hover:bg-cta-hover transition-colors shadow-lg flex items-center gap-2">

@@ -23,9 +23,9 @@ export default function Navbar() {
         {/* Logo */}
         <div className="flex items-center">
           <Image
-            src="/JGS-ELEC_LOGO.jpg"
-            width={120}
-            height={40}
+            src="/JGS-ELEC_LOGO_SANS_FOND.PNG"
+            width={200}
+            height={80}
             alt="Logo JGS-ELEC électricien Boussy-Saint-Antoine"
           />
         </div>
@@ -40,7 +40,7 @@ export default function Navbar() {
           <span className="block h-0.5 w-6 bg-white"></span>
         </button>
 
-        <div className="hidden md:flex gap-6">
+        <div className="hidden md:flex gap-8">
           <Link href="/" className="text-white hover:text-accent">
             Accueil
           </Link>
