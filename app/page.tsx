@@ -54,7 +54,7 @@ export default function Home() {
       <section id="services" className="py-16 px-6 bg-gray-50">
         <div className="max-w-7xl mx-auto">
           {/* Titre */}
-          <h2 className="text-7xl md:text-4xl font-bold text-center mb-4 text-primary-dark">
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4 text-primary-dark">
             Des prestations complètes
           </h2>
           <p className="text-center text-xl text-gray-600 mb-12 max-w-2xl mx-auto">
@@ -329,7 +329,7 @@ export default function Home() {
                   </div>
                   <div>
                     <h3 className="font-bold text-xl mb-1">Méthodologie</h3>
-                    <p className="text-gray-600 text-xm">
+                    <p className="text-gray-600 text-sm">
                       Chaque projet est étudié en amont pour éviter les
                       mauvaises surprises.
                     </p>
@@ -344,7 +344,7 @@ export default function Home() {
                     <h3 className="font-bold text-xl mb-1">
                       Rigueur d'exécution
                     </h3>
-                    <p className="text-gray-600 text-xm">
+                    <p className="text-gray-600 text-sm">
                       Des finitions soignées et un respect absolu des normes en
                       vigueur.
                     </p>
@@ -357,7 +357,7 @@ export default function Home() {
                   </div>
                   <div>
                     <h3 className="font-bold text-xl mb-1">Fiabilité</h3>
-                    <p className="text-gray-600 text-xm">
+                    <p className="text-gray-600 text-sm">
                       Je suis votre unique interlocuteur, de la signature du
                       devis jusqu'à la livraison finale du chantier.
                     </p>
@@ -376,12 +376,12 @@ export default function Home() {
               </div>
             </div>
             {/* Colonne droite - Photo */}
-            <div className="relative h-95 lg:h-190 w-full rounded-lg overflow-hidden shadow-xl">
+            <div className="relative h-80 lg:h-[450px] w-full rounded-lg overflow-hidden shadow-xl">
               <Image
                 src="/electricien-jgs.png"
                 alt="Georgeais Julien - Électricien JGS-ELEC"
                 fill
-                className="object-cover"
+                className="object-cover  object-center"
               />
             </div>
           </div>
