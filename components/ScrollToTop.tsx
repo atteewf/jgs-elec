@@ -59,11 +59,10 @@ export default function ScrollToTop() {
       <a
         href="tel:0768752487"
         onClick={handleUrgenceClick}
-        className="fixed bottom-8 left-8 bg-yellow-400 text-black px-6 py-3 rounded-full shadow-lg hover:bg-yellow-500 transition-all z-50 flex items-center gap-2 font-bold"
+        className="hidden md:flex fixed bottom-8 left-8 bg-yellow-400 text-black px-6 py-3 rounded-full shadow-lg hover:bg-yellow-500 transition-all z-50 flex items-center gap-2 font-bold"
       >
         <span className="text-xl">⚠️</span>
         <span className="hidden md:inline">Dépannage en urgence</span>
-        <span className="md:hidden">Urgence</span>
       </a>
 
       {/* Popup Desktop */}
@@ -83,11 +82,11 @@ export default function ScrollToTop() {
               <div className="bg-yellow-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-4xl">⚠️</span>
               </div>
-              
+
               <h3 className="text-2xl font-bold mb-2 text-primary-dark">
                 Dépannage en urgence
               </h3>
-              
+
               <p className="text-gray-600 mb-6">
                 Appelez-nous maintenant pour une intervention rapide
               </p>
