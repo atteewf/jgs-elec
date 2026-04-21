@@ -93,7 +93,7 @@ export default function Navbar() {
         <a
           href="tel:0768752487"
           onClick={handlePhoneClick}
-          className="bg-yellow-400 text-white px-4 py-4 rounded hover:bg-yellow-500 flex items-center justify-center gap-2 transition-colors text-lg font-semibold mx-auto md:mx-0 md:mr-4"
+          className="hidden md:flex bg-yellow-400 text-white px-4 py-4 rounded hover:bg-yellow-500 flex items-center justify-center gap-2 transition-colors text-lg font-semibold mx-auto md:mx-0 md:mr-4"
         >
           <FaPhone />
           Appeler
