@@ -3,6 +3,7 @@ import { FaPhone } from "react-icons/fa";
 import { FaCheckCircle } from "react-icons/fa";
 import ElectricLogo from "@/components/Electriclogo";
 import PhoneButton from "@/components/PhoneButton";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -45,9 +46,12 @@ export default function Home() {
             <FaPhone />
             07 68 75 24 87
           </PhoneButton>
-          <button className="bg-white text-primary px-6 py-3 rounded hover:bg-gray-100 transition-colors shadow-lg">
+          <Link
+            href="/contact"
+            className="bg-white text-primary px-6 py-3 rounded hover:bg-gray-100 transition-colors shadow-lg"
+          >
             Devis gratuit
-          </button>
+          </Link>
         </div>
       </section>
       {/* Section Services */}
@@ -571,9 +575,12 @@ export default function Home() {
               <FaPhone />
               07 68 75 24 87
             </PhoneButton>
-            <button className="bg-white text-primary px-6 py-3 rounded hover:bg-gray-100 transition-colors shadow-lg">
+            <Link
+              href="/contact"
+              className="bg-white text-primary px-6 py-3 rounded hover:bg-gray-100 transition-colors shadow-lg"
+            >
               Devis gratuit
-            </button>
+            </Link>
           </div>
         </div>
       </section>

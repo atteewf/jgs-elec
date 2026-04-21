@@ -22,12 +22,14 @@ export default function Navbar() {
       <nav className="bg-primary-dark py-4 px-6 flex flex-wrap items-center justify-between shadow-md">
         {/* Logo */}
         <div className="flex items-center ml-4">
-          <Image
-            src="/JGS-ELEC_LOGO_SANS_FOND.PNG"
-            width={200}
-            height={80}
-            alt="Logo JGS-ELEC électricien Boussy-Saint-Antoine"
-          />
+          <Link href="/" className="text-white hover:text-accent">
+            <Image
+              src="/JGS-ELEC_LOGO_SANS_FOND.PNG"
+              width={200}
+              height={80}
+              alt="Logo JGS-ELEC électricien Boussy-Saint-Antoine"
+            />
+          </Link>
         </div>
         <button
           onClick={() => {
