@@ -376,7 +376,7 @@ export default function Home() {
               </div>
             </div>
             {/* Colonne droite - Photo */}
-            <div className="relative h-80 lg:h-[500px] w-full rounded-lg overflow-hidden shadow-xl">
+            <div className="relative h-80 lg:h-[700px] w-full rounded-lg overflow-hidden shadow-xl">
               <Image
                 src="/electricien-jgs.png"
                 alt="Georgeais Julien - Électricien JGS-ELEC"
