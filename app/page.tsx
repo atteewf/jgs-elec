@@ -2,6 +2,8 @@ import Image from "next/image";
 import { FaPhone } from "react-icons/fa";
 import { FaCheckCircle } from "react-icons/fa";
 import ElectricLogo from "@/components/Electriclogo";
+import PhoneButton from "@/components/PhoneButton";
+
 export default function Home() {
   return (
     <main className="flex-1">
@@ -27,22 +29,22 @@ export default function Home() {
           <ElectricLogo />
         </div>
         {/* Titre principal */}
-        <h1 className="text-4xl md:text-7xl font-bold text-center mb-4">
+        <h1 className="text-3xl md:text-4xl font-bold text-center mb-4">
           Votre électricien de confiance à Boussy-Saint-Antoine (91).
         </h1>
 
         {/* Sous-titre */}
-        <p className="text-lg md:text-3xl text-center max-w-3xl mb-8">
+        <p className="text-lg md:text-2xl text-center max-w-3xl mb-8">
           Installation, rénovation et intervention rapide pour particuliers et
           professionnels.
         </p>
 
         {/* Boutons CTA */}
         <div className="flex gap-4 flex-col md:flex-row">
-          <button className="bg-cta text-white px-6 py-3 rounded hover:bg-cta-hover flex items-center gap-2 transition-colors shadow-lg">
+          <PhoneButton className="bg-cta text-white px-6 py-3 rounded hover:bg-cta-hover flex items-center gap-2 transition-colors shadow-lg">
             <FaPhone />
             07 68 75 24 87
-          </button>
+          </PhoneButton>
           <button className="bg-white text-primary px-6 py-3 rounded hover:bg-gray-100 transition-colors shadow-lg">
             Devis gratuit
           </button>
@@ -52,10 +54,10 @@ export default function Home() {
       <section id="services" className="py-16 px-6 bg-gray-50">
         <div className="max-w-7xl mx-auto">
           {/* Titre */}
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4 text-primary-dark">
+          <h2 className="text-7xl md:text-4xl font-bold text-center mb-4 text-primary-dark">
             Des prestations complètes
           </h2>
-          <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
+          <p className="text-center text-xl text-gray-600 mb-12 max-w-2xl mx-auto">
             Basée à Boussy-Saint-Antoine, JGS-ELEC vous accompagne dans tous vos
             projets électriques.
           </p>
@@ -71,7 +73,7 @@ export default function Home() {
                 className="object-cover transition-all duration-500 group-hover:scale-110"
               />
               {/* Label */}
-              <div className="absolute bottom-4 left-4 bg-cta text-white px-4 py-2 font-bold text-sm rounded z-10">
+              <div className="absolute top-4 left-4 bg-cta text-white px-4 py-2 font-bold text-sm rounded z-10">
                 DÉPANNAGES
               </div>
               {/* Overlay texte qui slide */}
@@ -83,7 +85,6 @@ export default function Home() {
                 </p>
               </div>
             </div>
-
             {/* Card 2 - Rénovation */}
             <div className="group relative h-80 rounded-lg overflow-hidden cursor-pointer">
               <Image
@@ -92,7 +93,7 @@ export default function Home() {
                 fill
                 className="object-cover transition-all duration-500 group-hover:scale-110"
               />
-              <div className="absolute bottom-4 left-4 bg-cta text-white px-4 py-2 font-bold text-sm rounded z-10">
+              <div className="absolute top-4 left-4 bg-cta text-white px-4 py-2 font-bold text-sm rounded z-10">
                 RÉNOVATION
               </div>
               <div className="absolute inset-x-0 bottom-0 bg-black/90 text-white p-6 translate-y-full group-hover:translate-y-0 transition-transform duration-500">
@@ -106,7 +107,6 @@ export default function Home() {
                 </p>
               </div>
             </div>
-
             {/* Card 3 - Installations */}
             <div className="group relative h-80 rounded-lg overflow-hidden cursor-pointer">
               <Image
@@ -115,7 +115,7 @@ export default function Home() {
                 fill
                 className="object-cover transition-all duration-500 group-hover:scale-110"
               />
-              <div className="absolute bottom-4 left-4 bg-cta text-white px-4 py-2 font-bold text-sm rounded z-10">
+              <div className="absolute top-4 left-4 bg-cta text-white px-4 py-2 font-bold text-sm rounded z-10">
                 INSTALLATIONS
               </div>
               <div className="absolute inset-x-0 bottom-0 bg-black/90 text-white p-6 translate-y-full group-hover:translate-y-0 transition-transform duration-500">
@@ -128,7 +128,6 @@ export default function Home() {
                 </p>
               </div>
             </div>
-
             {/* Card 4 - Domotique */}
             <div className="group relative h-80 rounded-lg overflow-hidden cursor-pointer">
               <Image
@@ -137,7 +136,7 @@ export default function Home() {
                 fill
                 className="object-cover transition-all duration-500 group-hover:scale-110"
               />
-              <div className="absolute bottom-4 left-4 bg-cta text-white px-4 py-2 font-bold text-sm rounded z-10">
+              <div className="absolute top-4 left-4 bg-cta text-white px-4 py-2 font-bold text-sm rounded z-10">
                 DOMOTIQUE
               </div>
               <div className="absolute inset-x-0 bottom-0 bg-black/90 text-white p-6 translate-y-full group-hover:translate-y-0 transition-transform duration-500">
@@ -150,7 +149,6 @@ export default function Home() {
                 </p>
               </div>
             </div>
-
             {/* Card 5 - Sécurité */}
             <div className="group relative h-80 rounded-lg overflow-hidden cursor-pointer">
               <Image
@@ -159,7 +157,7 @@ export default function Home() {
                 fill
                 className="object-cover transition-all duration-500 group-hover:scale-110"
               />
-              <div className="absolute bottom-4 left-4 bg-cta text-white px-4 py-2 font-bold text-sm rounded z-10">
+              <div className="absolute top-4 left-4 bg-cta text-white px-4 py-2 font-bold text-sm rounded z-10">
                 SÉCURITÉ
               </div>
               <div className="absolute inset-x-0 bottom-0 bg-black/90 text-white p-6 translate-y-full group-hover:translate-y-0 transition-transform duration-500">
@@ -170,6 +168,110 @@ export default function Home() {
                 </p>
               </div>
             </div>
+            {/* Card 6 - Borne */}
+            <div className="group relative h-80 rounded-lg overflow-hidden cursor-pointer">
+              <Image
+                src="/service-borne.jpg"
+                alt="Sécurité et surveillance"
+                fill
+                className="object-cover transition-all duration-500 group-hover:scale-110"
+              />
+              <div className="absolute top-4 left-4 bg-cta text-white px-4 py-2 font-bold text-sm rounded z-10">
+                BORNE ÉLECTRIQUE
+              </div>
+              <div className="absolute inset-x-0 bottom-0 bg-black/90 text-white p-6 translate-y-full group-hover:translate-y-0 transition-transform duration-500">
+                <h3 className="font-bold text-lg mb-2">Borne de recharge</h3>
+                <p className="text-sm">
+                  Installation de bornes de recharge pour véhicules électriques,
+                  domestiques et professionnelles. (à venir).
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* Section Zone d'intervention */}
+
+      <section className="py-20 px-6 bg-white">
+        <div className="max-w-7xl mx-auto">
+          {/* Titre */}
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-primary-dark">
+              Zone d'intervention
+            </h2>
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+              JGS-ELEC intervient dans le 91 (Essonne) et les départements
+              limitrophes : <br /> Val-de-Marne (94) et Seine-et-Marne (77).
+            </p>
+          </div>
+
+          {/* Carte + Informations */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center my-20">
+            {/* Colonne gauche - Carte */}
+            <div className="relative rounded-lg overflow-hidden shadow-2xl h-[218px]">
+              <Image
+                src="/zone-intervention.jpg"
+                alt="Zone d'intervention JGS-ELEC - Essonne, Val-de-Marne, Seine-et-Marne"
+                fill
+                className="object-cover"
+              />
+            </div>
+            {/* Colonne droite - Infos */}
+            <div className="space-y-6">
+              <div className="flex items-start gap-4">
+                <div className="flex-shrink-0 w-12 h-12 bg-accent rounded-full flex items-center justify-center text-white font-bold text-xl">
+                  91
+                </div>
+                <div>
+                  <h3 className="font-bold text-xl mb-2 text-primary-dark">
+                    Essonne
+                  </h3>
+                  <p className="text-gray-600">
+                    Boussy-Saint-Antoine, Brunoy, Varennes-Jarcy, Yerres et les
+                    communes environnantes.
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-4">
+                <div className="flex-shrink-0 w-12 h-12 bg-accent rounded-full flex items-center justify-center text-white font-bold text-xl">
+                  94
+                </div>
+                <div>
+                  <h3 className="font-bold text-xl mb-2 text-primary-dark">
+                    Val-de-Marne
+                  </h3>
+                  <p className="text-gray-600">
+                    Proximité immédiate avec l'Essonne pour une intervention
+                    rapide.
+                    <br />( Mandres les Roses, Perigny, Villecresnes...)
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-4">
+                <div className="flex-shrink-0 w-12 h-12 bg-accent rounded-full flex items-center justify-center text-white font-bold text-xl">
+                  77
+                </div>
+                <div>
+                  <h3 className="font-bold text-xl mb-2 text-primary-dark">
+                    Seine-et-Marne
+                  </h3>
+                  <p className="text-gray-600">
+                    Brie-Comte-Robert et secteurs limitrophes couverts selon
+                    disponibilités.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="mt-12 mb-16  max-w-2xl mx-auto text-center p-6 bg-gray-50 rounded-lg border-l-4 border-cta">
+            <p className="text-gray-700 font-medium">
+              💡 <strong>Votre secteur n'est pas listé ?</strong>
+            </p>
+            <p className="text-gray-600 mt-2">
+              Contactez-nous ! Nous étudions chaque demande avec attention.
+            </p>
           </div>
         </div>
       </section>
@@ -179,13 +281,14 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Colonne gauche - Texte */}
             <div>
-              <h2 className="text-7xl md:text-5xl font-bold mb-6 text-primary-dark">
+              <h2 className="text-3xl md:text-4xl font-bold mb-6 text-primary-dark">
                 L’exigence au cœur de chaque intervention
               </h2>
 
-              <div className="space-y-6 text-gray-700 leading-relaxed">
+              <div className="space-y-5 text-gray-700 leading-relaxed">
                 <p>
-                  Fondée en 2025 par Julien Georgeais, <strong>JGS-ELEC</strong>{" "}
+                  Fondée en 2025 par Julien Georgeais,{" "}
+                  <strong>JGS-ELEC </strong>
                   est née d’une conviction simple : dans le domaine de
                   l’électricité, il n’y a pas de place pour l’approximation.
                 </p>
@@ -261,23 +364,21 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-
               {/* CTA */}
               <div className="mt-8">
                 <p className="text-xl font-semibold mb-4">
                   Prêt à démarrer votre projet ?
                 </p>
-                <button className="bg-cta text-white px-6 py-3 rounded hover:bg-cta-hover transition-colors shadow-lg flex items-center gap-2">
+                <PhoneButton className="bg-cta text-white px-5 py-3 rounded hover:bg-cta-hover transition-colors shadow-lg inline-flex items-center gap-2">
                   <FaPhone />
                   Contactez-moi
-                </button>
+                </PhoneButton>
               </div>
             </div>
-
             {/* Colonne droite - Photo */}
-            <div className="relative h-96 lg:h-full rounded-lg overflow-hidden shadow-xl">
+            <div className="relative h-95 lg:h-190 w-full rounded-lg overflow-hidden shadow-xl">
               <Image
-                src="/electricien-jgs.png" // L'image IA avec casque
+                src="/electricien-jgs.png"
                 alt="Georgeais Julien - Électricien JGS-ELEC"
                 fill
                 className="object-cover"
@@ -466,19 +567,13 @@ export default function Home() {
           </p>
 
           <div className="flex gap-4 flex-col md:flex-row justify-center">
-            <a
-              href="tel:0768752487"
-              className="bg-cta text-white px-8 py-4 rounded hover:bg-cta-hover flex items-center justify-center gap-2 transition-colors shadow-lg text-lg font-semibold"
-            >
+            <PhoneButton className="bg-cta text-white px-8 py-4 rounded hover:bg-cta-hover flex items-center justify-center gap-2 transition-colors shadow-lg text-lg font-semibold">
               <FaPhone />
               07 68 75 24 87
-            </a>
-            <a
-              href="#contact"
-              className="bg-white text-primary border-2 border-primary px-8 py-4 rounded hover:bg-gray-50 transition-colors shadow-lg text-lg font-semibold"
-            >
-              Demander un devis
-            </a>
+            </PhoneButton>
+            <button className="bg-white text-primary px-6 py-3 rounded hover:bg-gray-100 transition-colors shadow-lg">
+              Devis gratuit
+            </button>
           </div>
         </div>
       </section>

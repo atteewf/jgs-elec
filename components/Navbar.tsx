@@ -21,7 +21,7 @@ export default function Navbar() {
     <>
       <nav className="bg-primary-dark py-4 px-6 flex flex-wrap items-center justify-between shadow-md">
         {/* Logo */}
-        <div className="flex items-center">
+        <div className="flex items-center ml-4">
           <Image
             src="/JGS-ELEC_LOGO_SANS_FOND.PNG"
             width={200}
@@ -41,20 +41,36 @@ export default function Navbar() {
         </button>
 
         <div className="hidden md:flex gap-8">
-          <Link href="/" className="text-white hover:text-accent">
+          <Link
+            href="/"
+            className="text-white hover:text-white font-bold text-2xl relative group"
+          >
             Accueil
+            <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-yellow-400 group-hover:w-full transition-all duration-300"></span>
           </Link>
 
-          <Link href="/services" className="text-white hover:text-accent">
+          <Link
+            href="/services"
+            className="text-white hover:text-white font-bold text-2xl relative group"
+          >
             Services
+            <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-yellow-400 group-hover:w-full transition-all duration-300"></span>
           </Link>
 
-          <Link href="/temoignages" className="text-white hover:text-accent">
+          <Link
+            href="/temoignages"
+            className="text-white hover:text-white font-bold text-2xl relative group"
+          >
             Témoignages
+            <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-yellow-400 group-hover:w-full transition-all duration-300"></span>
           </Link>
 
-          <Link href="/contact" className="text-white hover:text-accent">
+          <Link
+            href="/contact"
+            className="text-white hover:text-white font-bold text-2xl relative group"
+          >
             Contact
+            <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-yellow-400 group-hover:w-full transition-all duration-300"></span>
           </Link>
         </div>
         <div
@@ -77,7 +93,7 @@ export default function Navbar() {
         <a
           href="tel:0768752487"
           onClick={handlePhoneClick}
-          className="bg-cta text-white px-4 py-2 rounded hover:bg-cta-hover flex items-center gap-2 transition-colors"
+          className="bg-yellow-400 text-white px-4 py-4 rounded hover:bg-yellow-500 flex items-center gap-2 transition-colors text-lg font-semibold mr-4"
         >
           <FaPhone />
           Appeler
