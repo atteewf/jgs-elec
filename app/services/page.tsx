@@ -40,7 +40,7 @@ export default function ServicesPage() {
                     </div>
                     <div className="p-6 bg-gradient-to-t from-gray-100 to-white">
                       <h3 className="font-bold text-xl text-primary-dark mb-2">
-                        Rénovation tableau électrique
+                        Rénovation tableau électrique PAC
                       </h3>
                       <p className="text-sm text-gray-500 mt-2 flex items-center gap-2">
                         <span className="text-cta">→</span> Passez sur la carte
@@ -88,7 +88,7 @@ export default function ServicesPage() {
                         AVANT
                       </div>
                       <Image
-                        src="/realisations/realisation-2-avant.jpg"
+                        src="/realisations/bloc_secu_avant.jpg"
                         alt="Avant installation"
                         fill
                         className="object-cover"
@@ -96,7 +96,7 @@ export default function ServicesPage() {
                     </div>
                     <div className="p-6 bg-gradient-to-t from-gray-100 to-white">
                       <h3 className="font-bold text-xl text-primary-dark mb-2">
-                        Installation prises & interrupteurs
+                        Changement Bloc éclairage sécurité
                       </h3>
                       <p className="text-sm text-gray-500 mt-2 flex items-center gap-2">
                         <span className="text-cta">→</span> Passez sur la carte
@@ -112,7 +112,7 @@ export default function ServicesPage() {
                         APRÈS
                       </div>
                       <Image
-                        src="/realisations/realisation-2-apres.jpg"
+                        src="/realisations/bloc_secu_apres.jpg"
                         alt="Après installation"
                         fill
                         className="object-cover"
@@ -123,8 +123,8 @@ export default function ServicesPage() {
                         Résultat final
                       </h3>
                       <p className="text-sm text-gray-700 leading-relaxed">
-                        Rénovation complète d'un salon. Prises murales
-                        encastrées, finitions impeccables.
+                        Bloc d'éclairage de sécurité changé et conforme aux
+                        normes. Installation propre et fonctionnelle.
                       </p>
                     </div>
                   </div>
@@ -142,7 +142,7 @@ export default function ServicesPage() {
                         AVANT
                       </div>
                       <Image
-                        src="/realisations/realisation-3-avant.jpg"
+                        src="/realisations/aimant_retenue_secu_avant.jpg"
                         alt="Avant câblage"
                         fill
                         className="object-cover"
@@ -150,7 +150,7 @@ export default function ServicesPage() {
                     </div>
                     <div className="p-6 bg-gradient-to-t from-gray-100 to-white">
                       <h3 className="font-bold text-xl text-primary-dark mb-2">
-                        Encastrement câblage
+                        Aimant retenu porte coupe-feu
                       </h3>
                       <p className="text-sm text-gray-500 mt-2 flex items-center gap-2">
                         <span className="text-cta">→</span> Passez sur la carte
@@ -166,7 +166,7 @@ export default function ServicesPage() {
                         APRÈS
                       </div>
                       <Image
-                        src="/realisations/realisation-3-apres.jpg"
+                        src="/realisations/aimant_retenue_secu_apres.jpg"
                         alt="Après câblage"
                         fill
                         className="object-cover"
@@ -177,8 +177,8 @@ export default function ServicesPage() {
                         Résultat final
                       </h3>
                       <p className="text-sm text-gray-700 leading-relaxed">
-                        Finition soignée et discrète. Câbles encastrés dans les
-                        murs, aucune trace visible.
+                        Aimant de retenue installé pour porte coupe-feu. Système
+                        conforme et sécurisé.
                       </p>
                     </div>
                   </div>
@@ -196,7 +196,7 @@ export default function ServicesPage() {
                         AVANT
                       </div>
                       <Image
-                        src="/realisations/realisation-4-avant.jpg"
+                        src="/realisations/eclairage_led_ext_avant.jpg"
                         alt="Avant éclairage"
                         fill
                         className="object-cover"
@@ -217,10 +217,10 @@ export default function ServicesPage() {
                   <div className="relative w-full h-full bg-white rounded-xl overflow-hidden shadow-xl">
                     <div className="relative h-80">
                       <div className="absolute top-4 left-4 bg-cta-hover text-white px-4 py-2 text-sm font-bold rounded-lg z-10 shadow-lg">
-                        APRÈS
+                        SUITE
                       </div>
                       <Image
-                        src="/realisations/realisation-4-apres.jpg"
+                        src="/realisations/eclairage_led_ext_apres.jpg"
                         alt="Après éclairage"
                         fill
                         className="object-cover"
@@ -250,7 +250,7 @@ export default function ServicesPage() {
                         AVANT
                       </div>
                       <Image
-                        src="/realisations/realisation-5-avant.jpg"
+                        src="/realisations/moteur_portail_avant.jpg"
                         alt="Avant VMC"
                         fill
                         className="object-cover"
@@ -258,7 +258,7 @@ export default function ServicesPage() {
                     </div>
                     <div className="p-6 bg-gradient-to-t from-gray-100 to-white">
                       <h3 className="font-bold text-xl text-primary-dark mb-2">
-                        Installation VMC double flux
+                        Rénovation moteur portail électrique
                       </h3>
                       <p className="text-sm text-gray-500 mt-2 flex items-center gap-2">
                         <span className="text-cta">→</span> Passez sur la carte
@@ -274,7 +274,7 @@ export default function ServicesPage() {
                         APRÈS
                       </div>
                       <Image
-                        src="/realisations/realisation-5-apres.jpg"
+                        src="/realisations/moteur_portail_apres.jpg"
                         alt="Après VMC"
                         fill
                         className="object-cover"
@@ -285,8 +285,8 @@ export default function ServicesPage() {
                         Résultat final
                       </h3>
                       <p className="text-sm text-gray-700 leading-relaxed">
-                        Économie d'énergie garantie. VMC double flux installée,
-                        air renouvelé en continu.
+                        Moteur de portail électrique rénové. Installation
+                        sécurisée et fonctionnelle.
                       </p>
                     </div>
                   </div>
@@ -304,7 +304,7 @@ export default function ServicesPage() {
                         AVANT
                       </div>
                       <Image
-                        src="/realisations/realisation-6-avant.jpg"
+                        src="/realisations/prises_ext_avant.jpg"
                         alt="Avant dépannage"
                         fill
                         className="object-cover"
@@ -312,7 +312,7 @@ export default function ServicesPage() {
                     </div>
                     <div className="p-6 bg-gradient-to-t from-gray-100 to-white">
                       <h3 className="font-bold text-xl text-primary-dark mb-2">
-                        Dépannage court-circuit
+                        Pose prise électriques extérieures
                       </h3>
                       <p className="text-sm text-gray-500 mt-2 flex items-center gap-2">
                         <span className="text-cta">→</span> Passez sur la carte
@@ -328,7 +328,7 @@ export default function ServicesPage() {
                         APRÈS
                       </div>
                       <Image
-                        src="/realisations/realisation-6-apres.jpg"
+                        src="/realisations/prises_ext_apres.jpg"
                         alt="Après dépannage"
                         fill
                         className="object-cover"
@@ -339,8 +339,8 @@ export default function ServicesPage() {
                         Résultat final
                       </h3>
                       <p className="text-sm text-gray-700 leading-relaxed">
-                        Intervention rapide sous 2h. Court-circuit identifié et
-                        réparé, installation sécurisée.
+                        Prises électriques extérieures sécurisées et conformes
+                        aux normes.
                       </p>
                     </div>
                   </div>
@@ -358,7 +358,7 @@ export default function ServicesPage() {
                         AVANT
                       </div>
                       <Image
-                        src="/realisations/realisation-7-avant.jpg"
+                        src="/realisations/tableau_elec_avant.jpg"
                         alt="Avant interphone"
                         fill
                         className="object-cover"
@@ -366,7 +366,7 @@ export default function ServicesPage() {
                     </div>
                     <div className="p-6 bg-gradient-to-t from-gray-100 to-white">
                       <h3 className="font-bold text-xl text-primary-dark mb-2">
-                        Interphone vidéo connecté
+                        Tableau électrique mise aux normes
                       </h3>
                       <p className="text-sm text-gray-500 mt-2 flex items-center gap-2">
                         <span className="text-cta">→</span> Passez sur la carte
@@ -382,7 +382,7 @@ export default function ServicesPage() {
                         APRÈS
                       </div>
                       <Image
-                        src="/realisations/realisation-7-apres.jpg"
+                        src="/realisations/tableau_elec_apres.jpg"
                         alt="Après interphone"
                         fill
                         className="object-cover"
@@ -393,8 +393,8 @@ export default function ServicesPage() {
                         Résultat final
                       </h3>
                       <p className="text-sm text-gray-700 leading-relaxed">
-                        Sécurité et confort renforcés. Interphone HD connecté
-                        avec application mobile.
+                        Changement complet du tableau électrique. Mise aux
+                        normes et capacité adaptée.
                       </p>
                     </div>
                   </div>
@@ -412,7 +412,7 @@ export default function ServicesPage() {
                         AVANT
                       </div>
                       <Image
-                        src="/realisations/realisation-8-avant.jpg"
+                        src="/realisations/tableau_seb_avant.jpg"
                         alt="Avant domotique"
                         fill
                         className="object-cover"
@@ -420,7 +420,7 @@ export default function ServicesPage() {
                     </div>
                     <div className="p-6 bg-gradient-to-t from-gray-100 to-white">
                       <h3 className="font-bold text-xl text-primary-dark mb-2">
-                        Système domotique complet
+                        Remise à neuf tableau électrique dangereux
                       </h3>
                       <p className="text-sm text-gray-500 mt-2 flex items-center gap-2">
                         <span className="text-cta">→</span> Passez sur la carte
@@ -436,7 +436,7 @@ export default function ServicesPage() {
                         APRÈS
                       </div>
                       <Image
-                        src="/realisations/realisation-8-apres.jpg"
+                        src="/realisations/tableau_seb_apres.jpg"
                         alt="Après domotique"
                         fill
                         className="object-cover"
@@ -447,8 +447,8 @@ export default function ServicesPage() {
                         Résultat final
                       </h3>
                       <p className="text-sm text-gray-700 leading-relaxed">
-                        Maison connectée et pilotable. Éclairages, volets,
-                        chauffage contrôlés à distance.
+                        Maison sécurisée. Les propriétaires peuvent utiliser les
+                        équipements de la cuisine en toute quiétude.
                       </p>
                     </div>
                   </div>
