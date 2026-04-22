@@ -29,7 +29,7 @@ export default function MentionsLegales() {
               <strong>Téléphone :</strong> 07 68 75 24 87
             </p>
             <p>
-              <strong>Email :</strong> contact@jgs-elec.com
+              <strong>Email :</strong> georgeais@jgs-elec.com
             </p>
             <p>
               <strong>Responsable de publication :</strong> Julien GEORGEAIS
@@ -98,10 +98,10 @@ export default function MentionsLegales() {
           <p className="text-gray-700 leading-relaxed mt-4">
             Pour exercer ces droits, vous pouvez nous contacter par email à :{" "}
             <a
-              href="mailto:contact@jgs-elec.com"
+              href="mailto:georgeais@jgs-elec.com"
               className="text-cta hover:underline"
             >
-              contact@jgs-elec.com
+              georgeais@jgs-elec.com
             </a>
           </p>
           <p className="text-gray-700 leading-relaxed mt-4">

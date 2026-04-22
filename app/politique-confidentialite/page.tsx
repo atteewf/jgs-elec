@@ -232,10 +232,10 @@ export default function PolitiqueConfidentialite() {
             <p className="text-gray-700">
               Pour exercer l'un de ces droits, contactez-nous par email à :
               <a
-                href="mailto:contact@jgs-elec.com"
+                href="mailto:georgeais@jgs-elec.com"
                 className="text-cta hover:underline font-semibold ml-1"
               >
-                contact@jgs-elec.com
+                georgeais@jgs-elec.com
               </a>
             </p>
             <p className="text-gray-700 mt-2">
@@ -321,10 +321,10 @@ export default function PolitiqueConfidentialite() {
           <p>
             📧 Email :{" "}
             <a
-              href="mailto:contact@jgs-elec.com"
+              href="mailto:georgeais@jgs-elec.com"
               className="underline hover:text-cta"
             >
-              contact@jgs-elec.com
+              georgeais@jgs-elec.com
             </a>
           </p>
           <p>📞 Téléphone : 07 68 75 24 87</p>

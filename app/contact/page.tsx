@@ -16,7 +16,7 @@ export default function ServicesPage() {
             {/* Colonne gauche - Formulaire */}
             <div className="bg-white rounded-xl shadow-xl p-8">
               <form
-                action="mailto:contact@jgs-elec.com?subject=Demande de contact JGS-ELEC"
+                action="mailto:georgeais@jgs-elec.com?subject=Demande de contact JGS-ELEC"
                 method="post"
                 encType="text/plain"
                 className="space-y-6"
@@ -257,10 +257,10 @@ export default function ServicesPage() {
                   </div>
                 </div>
                 <a
-                  href="mailto:contact@jgs-elec.com"
+                  href="mailto:georgeais@jgs-elec.com"
                   className="block text-primary hover:text-cta transition-colors text-lg font-semibold break-all"
                 >
-                  contact@jgs-elec.com
+                  georgeais@jgs-elec.com
                 </a>
               </div>
 

@@ -1,0 +1,13 @@
+# Robots.txt pour JGS-ELEC
+# https://www.jgs-elec.com
+
+# Autoriser tous les robots d'indexation
+User-agent: *
+Allow: /
+
+# Bloquer l'indexation des fichiers système Next.js (optionnel)
+Disallow: /_next/
+Disallow: /api/
+
+# Sitemap
+Sitemap: https://www.jgs-elec.com/sitemap.xml

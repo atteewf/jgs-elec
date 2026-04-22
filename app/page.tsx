@@ -8,7 +8,6 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="flex-1">
-      {/* Hero Section */}
       <section
         id="accueil"
         className="relative min-h-screen flex flex-col items-center justify-center text-white px-6 py-16"
@@ -22,33 +21,38 @@ export default function Home() {
           priority
         />
 
-        {/* Overlay sombre pour lisibilité du texte */}
-        <div className="absolute inset-0 bg-black/60 -z-10"></div>
+        {/* Overlay sombre RENFORCÉ (70% au lieu de 60%) */}
+        <div className="absolute inset-0 bg-black/70 -z-10"></div>
 
-        {/* Logo centré */}
+        {/* Logo centré SANS contrainte (comme version initiale) */}
         <div className="mb-8">
           <ElectricLogo />
         </div>
-        {/* Titre principal */}
-        <h1 className="text-3xl md:text-4xl font-bold text-center mb-4">
-          Votre électricien de confiance à Boussy-Saint-Antoine (91).
+
+        {/* Titre principal RENFORCÉ */}
+        <h1 className="text-3xl md:text-5xl font-bold text-center mb-4 leading-tight">
+          Votre électricien de confiance à Boussy-Saint-Antoine (91)
         </h1>
 
-        {/* Sous-titre */}
-        <p className="text-lg md:text-2xl text-center max-w-3xl mb-8">
-          Installation, rénovation et intervention rapide pour particuliers et
-          professionnels.
+        {/* Badge dépannage urgence AJOUTÉ sous le titre */}
+        <p className="text-lg md:text-xl text-yellow-400 font-bold mb-6 flex items-center gap-2">
+          ⚡ Dépannage en urgence 7j/7
         </p>
 
-        {/* Boutons CTA */}
+        {/* Sous-titre avec bullet points */}
+        <p className="text-base md:text-lg text-center max-w-3xl mb-8 text-gray-200">
+          Installation • Rénovation • Dépannage rapide • Mise aux normes
+        </p>
+
+        {/* Boutons CTA RENFORCÉS */}
         <div className="flex gap-4 flex-col md:flex-row">
-          <PhoneButton className="bg-cta text-white px-6 py-3 rounded hover:bg-cta-hover flex items-center gap-2 transition-colors shadow-lg">
+          <PhoneButton className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-4 rounded-xl font-bold text-xl flex items-center gap-3 transition-all shadow-2xl hover:scale-105">
             <FaPhone />
             07 68 75 24 87
           </PhoneButton>
           <Link
             href="/contact"
-            className="bg-white text-primary px-6 py-3 rounded hover:bg-gray-100 transition-colors shadow-lg"
+            className="bg-white text-primary px-8 py-4 rounded-xl font-bold text-xl hover:bg-gray-100 transition-all shadow-2xl hover:scale-105"
           >
             Devis gratuit
           </Link>
@@ -391,174 +395,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      {/* Section Abonnements */}
-      <section className="py-16 px-6 bg-primary-dark text-white">
-        <div className="max-w-7xl mx-auto">
-          {/* Titres */}
-          <div className="text-center mb-12">
-            <p className="text-accent text-sm font-semibold mb-2 uppercase tracking-wide">
-              Sécurité - Confort - Entretien
-            </p>
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              Nos abonnements maintenance
-            </h2>
-            <p className="text-gray-300 max-w-3xl mx-auto">
-              Intervention prioritaire sous 24h pour nos abonnés. Contrôle
-              annuel inclus et tarifs pro sur le matériel.
-            </p>
-          </div>
 
-          {/* Grid 3 cards */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {/* Card 1 - Essentiel */}
-            <div className="bg-white text-gray-800 rounded-lg p-8 shadow-xl">
-              <h3 className="text-2xl font-bold mb-2">Forfait Essentiel</h3>
-              <p className="text-sm text-gray-600 mb-4">12 mois</p>
-
-              <div className="mb-6">
-                <p className="text-3xl font-bold text-primary-dark">
-                  19,90€<span className="text-sm font-normal">/mois HT</span>
-                </p>
-                <p className="text-sm text-gray-600">Monophasé</p>
-                <p className="text-2xl font-bold text-primary-dark mt-2">
-                  24,90€<span className="text-sm font-normal">/mois HT</span>
-                </p>
-                <p className="text-sm text-gray-600">Triphasé</p>
-                <p className="text-sm text-gray-500 mt-2">
-                  + 79€ HT frais de dossier
-                </p>
-              </div>
-
-              <ul className="space-y-3 mb-8">
-                <li className="flex gap-2">
-                  <FaCheckCircle className="text-accent flex-shrink-0 mt-1" />
-                  <span className="text-sm">Contrôle + Rapport TGBT</span>
-                </li>
-                <li className="flex gap-2">
-                  <FaCheckCircle className="text-accent flex-shrink-0 mt-1" />
-                  <span className="text-sm">Mise aux normes NF</span>
-                </li>
-                <li className="flex gap-2">
-                  <FaCheckCircle className="text-accent flex-shrink-0 mt-1" />
-                  <span className="text-sm">Disjoncteurs à prix pro TTC</span>
-                </li>
-                <li className="flex gap-2">
-                  <FaCheckCircle className="text-accent flex-shrink-0 mt-1" />
-                  <span className="text-sm">Choix de marque à prix pro HT</span>
-                </li>
-                <li className="flex gap-2">
-                  <FaCheckCircle className="text-accent flex-shrink-0 mt-1" />
-                  <span className="text-sm">1 contrôle d'entretien annuel</span>
-                </li>
-              </ul>
-
-              <button className="w-full bg-primary text-white py-3 rounded hover:bg-primary-dark transition-colors">
-                Choisir ce forfait
-              </button>
-            </div>
-
-            {/* Card 2 - Sérénité (RECOMMANDÉ) */}
-            <div className="bg-white text-gray-800 rounded-lg p-8 shadow-xl border-4 border-cta relative">
-              <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-cta text-white px-4 py-1 rounded-full text-sm font-bold">
-                RECOMMANDÉ
-              </div>
-
-              <h3 className="text-2xl font-bold mb-2">Forfait Sérénité</h3>
-              <p className="text-sm text-gray-600 mb-4">24 mois</p>
-
-              <div className="mb-6">
-                <p className="text-3xl font-bold text-primary-dark">
-                  14,90€<span className="text-sm font-normal">/mois HT</span>
-                </p>
-                <p className="text-sm text-gray-600">Monophasé</p>
-                <p className="text-2xl font-bold text-primary-dark mt-2">
-                  19,90€<span className="text-sm font-normal">/mois HT</span>
-                </p>
-                <p className="text-sm text-gray-600">Triphasé</p>
-                <p className="text-sm text-gray-500 mt-2">
-                  + 79€ HT frais de dossier
-                </p>
-              </div>
-
-              <ul className="space-y-3 mb-8">
-                <li className="flex gap-2">
-                  <FaCheckCircle className="text-accent flex-shrink-0 mt-1" />
-                  <span className="text-sm">Tout du Forfait Essentiel</span>
-                </li>
-                <li className="flex gap-2">
-                  <FaCheckCircle className="text-accent flex-shrink-0 mt-1" />
-                  <span className="text-sm">
-                    1 inter-différentiel à prix pro TTC
-                  </span>
-                </li>
-                <li className="flex gap-2">
-                  <FaCheckCircle className="text-accent flex-shrink-0 mt-1" />
-                  <span className="text-sm">1 contrôle d'entretien annuel</span>
-                </li>
-                <li className="flex gap-2">
-                  <FaCheckCircle className="text-cta flex-shrink-0 mt-1" />
-                  <span className="text-sm font-bold">
-                    + 2 détecteurs de fumée OFFERTS
-                  </span>
-                </li>
-              </ul>
-
-              <button className="w-full bg-cta text-white py-3 rounded hover:bg-cta-hover transition-colors">
-                Choisir ce forfait
-              </button>
-            </div>
-
-            {/* Card 3 - Premium */}
-            <div className="bg-white text-gray-800 rounded-lg p-8 shadow-xl">
-              <h3 className="text-2xl font-bold mb-2">Forfait Premium</h3>
-              <p className="text-sm text-gray-600 mb-4">36 mois</p>
-
-              <div className="mb-6">
-                <p className="text-3xl font-bold text-primary-dark">
-                  9,90€<span className="text-sm font-normal">/mois HT</span>
-                </p>
-                <p className="text-sm text-gray-600">Monophasé</p>
-                <p className="text-2xl font-bold text-primary-dark mt-2">
-                  12,90€<span className="text-sm font-normal">/mois HT</span>
-                </p>
-                <p className="text-sm text-gray-600">Triphasé</p>
-                <p className="text-sm text-gray-500 mt-2">
-                  + 79€ HT frais de dossier
-                </p>
-              </div>
-
-              <ul className="space-y-3 mb-8">
-                <li className="flex gap-2">
-                  <FaCheckCircle className="text-accent flex-shrink-0 mt-1" />
-                  <span className="text-sm">Tout du Forfait Sérénité</span>
-                </li>
-                <li className="flex gap-2">
-                  <FaCheckCircle className="text-accent flex-shrink-0 mt-1" />
-                  <span className="text-sm">
-                    2 contrôles d'entretien annuel
-                  </span>
-                </li>
-                <li className="flex gap-2">
-                  <FaCheckCircle className="text-cta flex-shrink-0 mt-1" />
-                  <span className="text-sm font-bold">
-                    + 3 détecteurs de fumée OFFERTS
-                  </span>
-                </li>
-                <li className="flex gap-2">
-                  <FaCheckCircle className="text-cta flex-shrink-0 mt-1" />
-                  <span className="text-sm font-bold">
-                    + 1 bandeau LED RGB 5m OFFERT
-                  </span>
-                </li>
-              </ul>
-
-              <button className="w-full bg-primary text-white py-3 rounded hover:bg-primary-dark transition-colors">
-                Choisir ce forfait
-              </button>
-            </div>
-          </div>
-        </div>
-      </section>
       {/* Section CTA finale */}
       <section className="py-16 px-6 bg-white">
         <div className="max-w-4xl mx-auto text-center">
