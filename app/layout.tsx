@@ -117,8 +117,7 @@ export default function RootLayout({
         <meta name="geo.placename" content="Boussy-Saint-Antoine" />
         <meta name="geo.position" content="48.6895;2.5312" />
         <meta name="ICBM" content="48.6895, 2.5312" />
-
-        {/* Favicon - Code généré par RealFaviconGenerator */}
+        <link rel="icon" href="/favicon.ico" sizes="any" />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
