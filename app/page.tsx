@@ -30,7 +30,7 @@ export default function Home() {
         </div>
 
         {/* Titre principal RENFORCÉ */}
-        <h1 className="text-3xl md:text-5xl font-bold text-center mb-4 leading-tight">
+        <h1 className="text-xl md:text-4xl font-bold text-center mb-4 leading-tight">
           Votre électricien de confiance à Boussy-Saint-Antoine (91)
         </h1>
 

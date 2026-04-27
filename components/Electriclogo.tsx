@@ -93,7 +93,7 @@ export default function ElectricLogo() {
         .logo-container-electric {
           position: relative;
           width: 100%;
-          max-width: 1300px;
+          max-width: 1000px;
           height: auto;
           aspect-ratio: 13 / 5;
           display: flex;
