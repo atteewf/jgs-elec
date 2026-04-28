@@ -115,6 +115,21 @@ export default function RootLayout({
   return (
     <html lang="fr" className={`${inter.variable} h-full antialiased`}>
       <head>
+         {/* Google Analytics */}
+         <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-6XR71VQ25L"
+  />
+  <script
+    dangerouslySetInnerHTML={{
+      __html: `
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-6XR71VQ25L');
+      `,
+    }}
+  />
         {/* Géolocalisation */}
         <meta name="geo.region" content="FR-91" />
         <meta name="geo.placename" content="Boussy-Saint-Antoine" />
@@ -139,7 +154,7 @@ export default function RootLayout({
           href="/favicon-16x16.png"
         />
         <link rel="manifest" href="/site.webmanifest" />
-
+     
         {/* JSON-LD */}
       </head>
       <body className="min-h-full flex flex-col">
