@@ -1,3 +1,4 @@
+<img width="1600" height="767" alt="39883a6b-3b21-4d47-a4b1-282f6f74db61" src="https://github.com/user-attachments/assets/13da6a6a-8ccb-4718-b1ab-59217fecd6f0" />
 # ⚡ JGS-ELEC — Site vitrine électricien
 
 > Site vitrine professionnel réalisé pour un électricien artisan à Boussy-Saint-Antoine (91).
@@ -14,7 +15,7 @@
 
 ## 📸 Screenshot
 
-![JGS-ELEC](https://github.com/user-attachments/assets/![alt text](image-1.png))
+![JGS-ELEC](https://github.com/user-attachments/assets/13da6a6a-8ccb-4718-b1ab-59217fecd6f0)
 
 ## ⚙️ Stack technique
 
