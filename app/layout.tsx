@@ -19,6 +19,9 @@ export const metadata: Metadata = {
   // Description (ce que Google affiche sous le titre dans les résultats)
   description:
     "Électricien à Boussy-Saint-Antoine (91), JGS-ELEC intervient pour dépannage, installation et rénovation électrique. Intervention rapide en Essonne et Val-de-Marne (94), devis gratuit.",
+verification: {
+    google: "ANsWqwndFMYVV_5iNNl6QzvWItoioyWSwxZxvJypN7E",
+  },
 
   // Mots-clés (optionnel, peu utilisé par Google mais ça ne coûte rien)
   keywords: [
